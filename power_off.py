@@ -22,7 +22,7 @@ def power_flag(flag):
         elif flag == 'follow':
             return 15
         elif flag == 'strict':
-            return 3
+            return 10
         else :
             raise misMatchFlagError
     except misMatchFlagError as me:
